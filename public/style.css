@@ -1,0 +1,154 @@
+@font-face
+{
+	font-family: 'BallparkWeiner';
+	src: url('polices/ballpark.eot');
+	src: url('polices/ballpark.eot?#iefix') format('embeddedopentype'),
+	url('polices/ballpark.woff') format('woff'),
+	url('polices/ballpark.ttf') format('truetype'),
+	url('polices/ballpark.svg#BallparkWeiner') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: 'Dayrom';
+	src: url('polices/dayrom.eot');
+	src: url('polices/dayrom.eot?#iefix') format('embeddedopentype'),
+	url('polices/dayrom.woff') format('woff'),
+	url('polices/dayrom.ttf') format('truetype'),
+	url('polices/dayrom.svg#Dayrom') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body
+{
+	background: url('images/fond_page.jpg');
+	font-family: 'Trebuchet MS', Arial, sans-serif;
+	color: #181818;
+}
+
+#bloc_page
+{
+	width: 900px;
+	margin: auto;
+}
+
+#banniere_image
+{
+	margin-top: 15px;
+	height: 100px;
+	border-radius: 5px;
+	background: url('images/fond_entete.jpg') no-repeat;
+	position: relative;
+	box-shadow: 0px 4px 4px #1c1a19;
+	margin-bottom: 25px;
+}
+
+.login 
+{
+	border:none;
+	padding:6px 2px 6px 2px;
+	border-radius:8px;
+	background:#478bf9;
+	font:bold 13px Arial;
+	color:#fff;
+	margin: 5px;
+}
+
+.signup 
+{
+	border:none;
+	padding:6px 2px 6px 2px;
+	border-radius:8px;
+	background:#478bf9;
+	font:bold 13px Arial;
+	color:#fff;
+}
+
+nav
+{
+	position: absolute;
+	left: 935px;
+}
+
+article, aside
+{
+	display: inline-block;
+	vertical-align: top;
+	text-align: justify;
+}
+
+article
+{
+	position: absolute;
+	width: 600px;
+	margin-right: 10px;
+}
+
+aside
+{
+	position: relative;
+	width: 300px;
+	left: 800px;
+	top: 100px;
+}
+
+#page_principale
+{
+	font-family: Dayrom, serif;
+	font-weight: bold;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	color: rgba(86, 13, 170, 0.788);
+}
+
+#image_accueil
+{
+	text-align: center;
+}
+
+.form 
+{
+	position: relative;
+	right: 100px;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 400px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+input 
+{
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+#_button 
+{
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+#_button:hover, #_button:active, #_button:focus {
+  background: #43A047;
+}
