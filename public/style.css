@@ -62,7 +62,17 @@ body
 	border:none;
 	padding:6px 2px 6px 2px;
 	border-radius:8px;
-	background:#478bf9;
+	background:#e07007;
+	font:bold 13px Arial;
+	color:#fff;
+}
+
+.logout 
+{
+	border:none;
+	padding:6px 2px 6px 2px;
+	border-radius:8px;
+	background:#b80808;
 	font:bold 13px Arial;
 	color:#fff;
 }

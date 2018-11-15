@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Login from './Login';
 import Signup from './Signup';
+import { connect } from 'react-redux';
 
 class Aside extends Component{
   /*constructor(props){
@@ -13,7 +14,6 @@ class Aside extends Component{
       return (<aside>
          <Login />
       </aside>);
-     
     } else if(this.props.status === "signup"){
       return(<div>
         <aside>
@@ -24,8 +24,14 @@ class Aside extends Component{
       return(<div>
       
         </div>);
-    }                            
+    }  
   }
 }
 
-export default Aside;
+/*function mapStateToProps(state){
+  return {
+    LoggedIn: state.loggedIn,
+  }
+}*/
+
+export default connect()(Aside);
